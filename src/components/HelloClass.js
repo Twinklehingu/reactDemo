@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-class HelloClass extends Comment{
+class HelloClass extends Component{
 
     render(){
      
-        <h1>Hello Team, from class component </h1>
+        return <h1>Hello Team, from class component </h1>
     }
 }
 
