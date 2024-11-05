@@ -4,6 +4,7 @@ import Hello from './components/Hello';
 import HelloClass from './components/HelloClass';
 import Welcome from './components/Welcome';
 import Counter from './components/Counter';
+import ParentComponent from './components/ParentComponent';
 
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
         
         */}
 
-        <Counter></Counter>
+        {/* <Counter ></Counter> */}
+
+        <ParentComponent></ParentComponent>
      
       </header>
     </div>
